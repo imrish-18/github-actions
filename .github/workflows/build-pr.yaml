@@ -7,8 +7,9 @@ on:
     branches:
       - github-action
 jobs:
-  runs-on:
-    windows-latest
+  Run-npm-on-Ubuntu:
+    name: Run npm on Ubuntu
+    runs-on: ubuntu-latest
   steps:
     - name: checkout repository
     - uses: actions/checkout@v3
